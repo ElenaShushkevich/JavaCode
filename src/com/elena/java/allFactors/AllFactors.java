@@ -7,7 +7,7 @@ public class AllFactors {
 
     public static void printFactors (int number) {
 
-        if (number>1){
+        if (number>=1){
 
             for (int i = 1; i <= number; i++) {
                 if (number % i == 0){
