@@ -3,6 +3,11 @@ package com.elena.java.inputCalculator;
 import java.util.Scanner;
 
 public class InputCalculator {
+    public static void main(String[] args) {
+        InputCalculator calllc= new InputCalculator();
+        calllc.inputThenPrintSumAndAverage();
+    }
+
     public static void inputThenPrintSumAndAverage(){
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
