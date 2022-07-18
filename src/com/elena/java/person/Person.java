@@ -56,7 +56,7 @@ public class Person {
         else if (firstName.isEmpty()){
             return lastName;
         }
-        return firstName+""+lastName;
+        return firstName+" "+lastName;
     }
 }
 
