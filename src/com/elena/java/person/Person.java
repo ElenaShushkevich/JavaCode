@@ -49,7 +49,7 @@ public class Person {
 
     public String getFullName(){
         if(lastName.isEmpty() && firstName.isEmpty()){
-            return " ";
+            return "";
         } else if (lastName.isEmpty()){
             return firstName;
         }
